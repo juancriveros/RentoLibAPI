@@ -42,7 +42,7 @@ namespace RentoLibAPI.Controllers
         {
             var user = await userService.GetById(id);
             if (user == null)
-            {
+            { 
                 return NotFound();
             }
 
